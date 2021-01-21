@@ -51,10 +51,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+හායි  {} , මමගේ නම{} ❤️
+ඔයාලගෙ  ගෲප් මැනේජ් කරන්න පුලුවං Powerful Bot කෙනෙක් මම 🙂
+මගේ Owner[★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/prabhasha999)🤩
+/start Me /nමට කරන්න පුලුවං දේවල් බලාගන්න /help කියල මැසේජ් එකක් Send කරන්නකො 😉
 """
 
 HELP_STRINGS = """
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/49c49becc5029f7b53e06.png"
+SAITAMA_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -200,27 +200,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Add Me ",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username)),
+                            text=" ⛑ Support Group ",
+                            url="t.me/gangofmafiateam"
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/gangofmafiateam")
+                             text=" 🌠 Updates ",
+                             url="https://t.me/hexyupdate")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/GroupManager_Ro_bot?start=help"),
+                            url="https://t.me/MissHexy_Robot?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Developer ",
+                            text=" 🤿 Developer ",
                              url="https://t.me/Prabha_sha")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="t.me/gangofmafiateam")
-                    
+                             text=" 🎨 Add Me To Your Group ",
+                            url="t.me/{}?startgroup=true".format(
+                                context.bot.username))
                     ]]))
     else:
         update.effective_message.reply_text(
