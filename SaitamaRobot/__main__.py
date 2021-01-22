@@ -59,7 +59,7 @@ PM_START_TEXT = """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm Dr ★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★ & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -82,7 +82,7 @@ SAITAMA_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [Telegram](t.me/gangofmafiateam), or [Paypal](paypal.me/prabhashapiumantha)."""
+There are two ways of supporting him; [PayPal](paypal.me/PrabhashaPiumantha), or [Telegram](t.me/Prabha_Sha)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -200,11 +200,12 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" ⛑ Support Group ",
-                            url="t.me/gangofmafiateam")
-                        InlineKeyboardButton(
+                            text=" 🎨 Add Me ",
+                            url="t.me/{}?startgroup=true".format(
+                                context.bot.username)),
+                         InlineKeyboardButton(
                              text=" 🌠 Updates ",
-                             url="https://t.me/hexyupdate")
+                             url="https://t.me/HexyUpdates")
                      ],
                      [
                         InlineKeyboardButton(
@@ -212,14 +213,14 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/MissHexy_Robot?start=help"),
                          InlineKeyboardButton(
                             text=" 🤿 Developer ",
-                             url="https://t.me/Prabha_sha")        
+                             url="https://t.me/Prabha_Sha")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" 🎨 Add Me To Your Group ",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
+                             text=" ❤️ Source Code ",
+                             url="t.me/gangofmafiateam")
+                    
                     ]]))
     else:
         update.effective_message.reply_text(
