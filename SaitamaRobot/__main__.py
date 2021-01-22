@@ -201,7 +201,7 @@ def start(update: Update, context: CallbackContext):
                     [[
                         InlineKeyboardButton(
                             text=" ⛑ Support Group ",
-                            url="t.me/gangofmafiateam"
+                            url="t.me/gangofmafiateam")
                         InlineKeyboardButton(
                              text=" 🌠 Updates ",
                              url="https://t.me/hexyupdate")
