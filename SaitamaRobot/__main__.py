@@ -51,16 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-හායි  {} , මමගේ නම{} ❤️
+හායි  {} , මගේ නම 💞 {}  💞
 ඔයාලගෙ  ගෲප් මැනේජ් කරන්න පුලුවං Powerful Bot කෙනෙක් මම 🙂
-මගේ Owner[★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/prabhasha999)🤩
-/start Me /nමට කරන්න පුලුවං දේවල් බලාගන්න /help කියල මැසේජ් එකක් Send කරන්නකො 😉
+මගේ Owner[★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/Prabha_sha)🤩
+/start Me \nමට කරන්න පුලුවං දේවල් බලාගන්න /help කියල මැසේජ් එකක් Send කරන්නකො 😉
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm Dr ★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★ & I help admins to manage their groups! Have a look at the following for an idea of some of \
-the things I can help you with.
+ආයුබෝවන්!🙏
+ ඔයාව [Hexy](t.me/MissHexy_Robot) Project එකෙන් රන් වෙන තවත් බොට් කෙනෙකුට සාදරයෙන් පිළිගන්නවා! n\මට ඔබට උදව් කළ හැකි කරුණු කිහිපයක් පිළිබඳ අදහසක් සඳහා පහත සඳහන් කරුණු දෙස බලන්න.😌 
 
 *Main* commands available:
  • /help: PM's you this message.
