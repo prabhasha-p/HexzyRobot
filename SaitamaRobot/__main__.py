@@ -52,14 +52,17 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+
+I am a Powerful Group Manager bot Developed by [HIRUNA](t.me/hirunaofficial)
+
 You can find my list of available commands with /help.
+
+©2020 [GD HIRUNA](t.me/hirunaofficial) Bot All Rights Reserved
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm Most Powerfull & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -77,12 +80,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/103/thumb-1920-1031089.jpg"
+SAITAMA_IMG = "https://i.ibb.co/PcpcHF9/a298e-deweni2binima2blove2bphotoshoot2b252832529.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him on [Telegram](t.me/hirunaofficial)  or  [PayPal](paypal.me/gdhiruna)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
