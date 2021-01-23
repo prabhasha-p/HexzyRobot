@@ -203,26 +203,25 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                             text=" 👪 Support Group ",
+                             url="https://t.me/hirunayoutube"),
+                         InlineKeyboardButton(
+                             text=" 🔔 Update Channel ",
+                             url="https://t.me/hirunayoutubechannel")
+                     ],
+                     [
+                        InlineKeyboardButton(
+                            text=" 🙋 Help ",
+                            url="https://t.me/dewmibot?start=help"),
+                         InlineKeyboardButton(
+                            text=" ⚡️ Developer ",
+                             url="https://t.me/hirunaofficial")        
+                       
+                     ], 
+                        InlineKeyboardButton(
+                            text=" ➕ Add Me to Your Group ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
-                         InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
-                     ],
-                     [
-                        InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/SenkuRobot?start=help"),
-                         InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
-                       
-                     ],
-                     [
-                        InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
                     
                     ]]))
     else:
