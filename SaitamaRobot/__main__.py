@@ -51,15 +51,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-හායි  {} , මගේ නම 💞 {}  💞
-ඔයාලගෙ  ගෲප් මැනේජ් කරන්න පුලුවං Powerful Bot කෙනෙක් මම 🙂
-මගේ Owner[★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/Prabha_sha)🤩
-/start Me \nමට කරන්න පුලුවං දේවල් බලාගන්න /help කියල මැසේජ් එකක් Send කරන්නකො 😉
+Hi {}, my name is {}! 
+
+I am a Powerful group management bot 🤿 \nCreated by [My master](tg://user?id={}) 
+n\Based on Project Hexzy written by [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](https://t.me/Prabha_sha) 🤩
+You can find my list of available commands with /help.
+Start Me By /start
+
+©2021 [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/Prabha_sha) Bot All Rights Reserved
 """
 
 HELP_STRINGS = """
-ආයුබෝවන්!🙏
- ඔයාව [Hexy](t.me/MissHexy_Robot) Project එකෙන් රන් වෙන තවත් බොට් කෙනෙකුට සාදරයෙන් පිළිගන්නවා! n\මට ඔබට උදව් කළ හැකි කරුණු කිහිපයක් පිළිබඳ අදහසක් සඳහා පහත සඳහන් කරුණු දෙස බලන්න.😌 
+Hey there! My name is *{}*.
+I'm Most Powerfull & I help admins to manage their groups! Have a look at the following for an idea of some of \
+the things I can help you with. 🤿
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -81,7 +86,7 @@ SAITAMA_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PrabhashaPiumantha), or [Telegram](t.me/Prabha_Sha)."""
+There are two ways of supporting him on [Telegram](t.me/Prabha_sha)  or  [PayPal](paypal.me/PrabhashaPiumantha)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -199,26 +204,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 🎨 Add Me ",
+                             text=" 🚑 Support Group ",
+                             url="https://t.me/Gangofmafiateam"),
+                         InlineKeyboardButton(
+                             text=" 🦠 YouTube Channel ",
+                             url="https://t.me/Mafia_Update")
+                     ],
+                     [
+                        InlineKeyboardButton(
+                            text=" ⛑ Help ",
+                            url="https://t.me/MissHexzy_Robot?start=help"),
+                         InlineKeyboardButton(
+                            text=" ⚡️ Developer ",
+                             url="https://t.me/Prabha_sha")        
+                       
+                     ], 
+                     [
+                        InlineKeyboardButton(
+                            text=" ➕ Add Hexzy to Your Group 🎨",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
-                         InlineKeyboardButton(
-                             text=" 🌠 Updates ",
-                             url="https://t.me/HexyUpdates")
-                     ],
-                     [
-                        InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/MissHexy_Robot?start=help"),
-                         InlineKeyboardButton(
-                            text=" 🤿 Developer ",
-                             url="https://t.me/Prabha_Sha")        
-                       
-                     ],
-                     [
-                        InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="t.me/gangofmafiateam")
                     
                     ]]))
     else:
