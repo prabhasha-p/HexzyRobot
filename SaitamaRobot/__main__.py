@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 
-I am a Powerful group management bot 🤿 \nCreated by [My master](tg://user?id={}) 
+I am a Powerful group management bot 🤿 \nCreated by [My master](https://t.me/Prabha_sha) 
 n\Based on Project Hexzy written by [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](https://t.me/Prabha_sha) 🤩
 You can find my list of available commands with /help.
 Start Me By /start
