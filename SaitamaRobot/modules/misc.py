@@ -79,23 +79,23 @@ def markdown_help(update: Update, context: CallbackContext):
 __help__ = """
 *Available commands:*
 *Markdown:*
- • `/markdownhelp`*:* quick summary of how markdown works in telegram - can only be called in private chats
+ •  /markdownhelp  *:* quick summary of how markdown works in telegram - can only be called in private chats
 *Paste:*
- • `/paste`*:* Saves replied content to `nekobin.com` and replies with a url
+ •  /paste  *:* Saves replied content to `nekobin.com` and replies with a url
 *React:*
- • `/react`*:* Reacts with a random reaction 
+ •  /react  *:* Reacts with a random reaction 
 *Urban Dictonary:*
- • `/ud <word>`*:* Type the word or expression you want to search use
+ •  /ud <word>  *:* Type the word or expression you want to search use
 *Wikipedia:*
- • `/wiki <query>`*:* wikipedia your query
+ •  /wiki <query>  *:* wikipedia your query
 *Wallpapers:*
- • `/wall <query>`*:* get a wallpaper from wall.alphacoders.com
+ •  /wall <query>  *:* get a wallpaper from wall.alphacoders.com
 *Currency converter:* 
- • `/cash`*:* currency converter
+ •  /cash  *:* currency converter
 Example:
- `/cash 1 USD INR`  
+  /cash 1 USD INR`  
       _OR_
- `/cash 1 usd inr`
+  /cash 1 usd inr`
 Output: `1.0 USD = 75.505 INR`
 """
 
