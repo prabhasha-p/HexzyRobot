@@ -53,8 +53,8 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 
-I am a Powerful group management bot 🤿 \nCreated by [My master](https://t.me/Prabha_sha) 
-n\Based on Project Hexzy written by [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](https://t.me/Prabha_sha) 🤩
+I am a Powerful group management bot 🙂  🤿 \nCreated by [My master](https://t.me/Prabha_sha) 
+Based on Project Hexzy written by [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](https://t.me/Prabha_sha) 🤩
 You can find my list of available commands with /help.
 Start Me By /start
 
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                              text=" 🚑 Support Group ",
                              url="https://t.me/Gangofmafiateam"),
                          InlineKeyboardButton(
-                             text=" 🦠 YouTube Channel ",
+                             text=" 🦠 Update Channel ",
                              url="https://t.me/Mafia_Update")
                      ],
                      [
