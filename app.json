@@ -1,5 +1,5 @@
 {
-      "name": "SenkuRobot",
+      "name": "Telegram-Group-Management-Bot",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "Senku"
       ],   
    "repository": "https://github.com/gdhiruna/Telegram-Group-Management-Bot",
-   "logo": "https://64.media.tumblr.com/0b9df3c98abd7506f0aa20c7ae11cb44/15b7ca8e73e46fcc-e4/s640x960/8c4da729e10aaff950d29eaefd8e222aad5de164.jpg",
+   "logo": "https://www.internetandtechnologylaw.com/files/2019/06/iStock-872962368-chat-bots.jpg",
    "addons": [
     {
          "options": {
