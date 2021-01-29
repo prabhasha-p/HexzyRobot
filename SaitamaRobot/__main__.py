@@ -53,11 +53,11 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 
-I am a Powerful Group Manager bot Developed by [HIRUNA](t.me/hirunaofficial)
+I am a Powerful Group Manager bot Developed by [彡(ツ)★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค (ツ) 彡 ★](t.me/Prabha_sha)
 
 You can find my list of available commands with /help.
 
-©2020 [GD HIRUNA](t.me/hirunaofficial) Bot All Rights Reserved
+©2020 [彡(ツ)★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค (ツ) 彡 ★](t.me/Prabha_sha) Bot All Rights Reserved
 """
 
 HELP_STRINGS = """
@@ -203,24 +203,24 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                             text=" 👪 Support Group ",
-                             url="https://t.me/hirunayoutube"),
+                             text=" 🚑 Support Group ",
+                             url="https://t.me/Gangofmafiateam"),
                          InlineKeyboardButton(
                              text=" 🔔 Update Channel ",
-                             url="https://t.me/hirunayoutubechannel")
+                             url="https://t.me/Mafia_Update")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" 🙋 Help ",
-                            url="https://t.me/dewmibot?start=help"),
+                            text=" ⛑ Help ",
+                            url="https://t.me/MissHexzy_Robot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Developer ",
-                             url="https://t.me/hirunaofficial")        
+                             url="https://t.me/Prabha_sha")        
                        
                      ], 
                      [
                         InlineKeyboardButton(
-                            text=" ➕ Add Me to Your Group ",
+                            text=" ➕ Add Me to Your Group 🛡 ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                     
