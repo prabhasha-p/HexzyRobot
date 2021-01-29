@@ -80,12 +80,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://i.ibb.co/PcpcHF9/a298e-deweni2binima2blove2bphotoshoot2b252832529.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/23c40c8b88da2370e9743.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him on [Telegram](t.me/hirunaofficial)  or  [PayPal](paypal.me/gdhiruna)."""
+There are two ways of supporting him on [Telegram](t.me/Prabha_sha)  or  [PayPal](paypal.me/Prabhashapiumantha)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
