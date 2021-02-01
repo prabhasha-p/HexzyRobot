@@ -1,5 +1,5 @@
 ![Hexzy](https://telegra.ph/file/23c40c8b88da2370e9743.jpg)
-# Hexzy Robot 
+# [Hexzy Robot](t.me/HexzyRobot) 
 
 
 
